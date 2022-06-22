@@ -1,0 +1,129 @@
+.dialog {
+  p {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+    text-transform: none;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #828282;
+  }
+
+  h3 {
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  div.col {
+    padding: 0 !important;
+  }
+
+  div.col.input-col{
+    padding: 20px !important;
+  }
+
+  input {
+    margin-left: 75px;
+    text-align: center;
+  }
+  input::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .inputBox {
+    margin: 0 66px 0 66px;
+    height: 95px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    .v-text-field fieldset, .v-text-field .v-input__control, .v-text-field .v-input__slot {
+      margin: 10px 0 24px;
+    }
+  }
+
+  .inputText {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0 !important;
+    text-align: center !important;
+    color: #000000;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .successBox {
+    margin: 30px 0 30px 0;
+  }
+  .toggle-triple {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 1px solid #BDBDBD;
+    width: 410px;
+    .selected {
+      text-transform: none;
+      border-radius: 30px;
+      background: #3e954a;
+      color: #FFFFFF;
+      width: 35%;
+    }
+    .notSelected {
+      text-transform: none;
+      border-radius: 30px;
+      background: #FFFFFF;
+      color: #000000;
+      width: 32.5%;
+    }
+  }
+  .loader {
+    h1 {
+      text-transform: none;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+      color: #000000;
+    }
+    p {
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+  .buyMoreTokens {
+    a {
+      z-index: 1;
+      position: relative;
+    }
+  }
+}

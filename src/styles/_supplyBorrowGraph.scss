@@ -1,0 +1,68 @@
+.supply-borrow-graph{
+  margin-top: 50px;
+  margin-bottom: 25px;
+
+  .supply-borrow-graph-text-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3e954a;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #3e954a;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .supplied {
+    color: #25BD6B;
+  }
+
+  .collateral {
+    color: #3e954a;
+  }
+
+  .borrowed {
+    color: #828282;
+  }
+
+  h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #3e954a;
+  }
+
+  span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+  }
+
+  .borrow-limit {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+  }
+}

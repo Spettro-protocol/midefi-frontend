@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "rlending-9b863"
+  },
+  "targets": {
+    "rlending-9b863": {
+      "hosting": {
+        "test": [
+          "rlending-9b863"
+        ],
+        "prod": [
+          "rlending-prod"
+        ]
+      }
+    }
+  }
+}

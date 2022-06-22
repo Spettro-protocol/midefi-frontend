@@ -1,0 +1,101 @@
+.my-activity{
+  h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #3e954a;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #3e954a;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #24BD6B;
+  }
+  h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #BDBDBD;
+    margin: 0px;
+  }
+
+  span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    color: #828282;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .upper-banner{
+    background: #E5E5E5;
+    padding: 0 100px 50px 100px;
+    margin: 0 -12px -12px -12px;
+  }
+
+  .graphics-card{
+    p{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 18px;
+      color: #4F4F4F;
+    }
+  }
+
+  .v-card {
+    border-radius: 20px;
+  }
+
+  .tweened-number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .tweened-number-blue {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #3e954a
+  }
+
+  .market-price-icon{
+    padding-top: 0px !important;
+  }
+
+  .market-price{
+    padding-left: 5% !important;
+  }
+
+  .money-price-detail{
+    padding-top: 2% !important;
+  }
+
+}

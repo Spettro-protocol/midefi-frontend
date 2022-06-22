@@ -1,0 +1,84 @@
+.faq{
+  h1 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #3e954a;
+    margin-top:1.5rem;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #3e954a;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #24BD6B;
+  }
+  h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    color: #828282;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  .upper-banner{
+    background: #E5E5E5;
+    padding: 0 100px 50px 100px;
+    margin: 0 -12px -12px -12px;
+  }
+
+  .graphics-card{
+    p{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 18px;
+      color: #4F4F4F;
+    }
+  }
+
+  .v-card {
+    border-radius: 20px;
+  }
+
+  ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+}

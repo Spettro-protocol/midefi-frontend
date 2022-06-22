@@ -1,0 +1,35 @@
+.transaction-list {
+  h2 {
+   margin: 2%;
+   font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #3e954a;
+  }
+  a{
+    color: #828282 !important;
+  }
+}
+.divider-search{
+  margin-bottom: 2%;
+}
+.tx-fail-row{
+  background-color: #eb5757;
+  a{
+    color: #FFFFFF !important;
+  }
+  &:hover {
+    a{
+      color: #828282 !important;
+    }
+  }
+}
+
+.item-row-center{
+  text-align: center !important;
+  table tbody tr td {
+    text-align: center !important;
+  }
+  
+}

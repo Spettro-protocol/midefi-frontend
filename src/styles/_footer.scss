@@ -1,0 +1,42 @@
+.footer {
+  a {
+    text-decoration: none !important;
+  }
+
+  .black-footer {
+    min-height: 230px;
+    padding: 30px;
+    background: #155ffe;
+
+    h1 {
+      font-size: 18px;
+      color: white;
+    }
+
+    a {
+      text-decoration: none !important;
+      color: white !important;
+      font-weight: 300;
+      display: block;
+      font-size: 17px;
+      margin: 3px;
+    }
+  }
+
+  .social-footer {
+    background: #155ffe;
+    font-weight: normal;
+    font-size: 16px;
+    color: #dbdbdb;
+
+    .social-icon {
+      color: #fff;
+    }
+  }
+  p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+  }
+}
